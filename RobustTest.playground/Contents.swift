@@ -13,7 +13,7 @@ while m <= n {
     //var six = str.index(str.startIndex, offsetBy: n)
     var lastChar: Character = str[str.index(str.startIndex, offsetBy: n)]
     print(lastChar)
-    n = n - 1;
+    n = n - 1
 }
 
 
@@ -25,4 +25,3 @@ var tipCost:Double = ( mealCost * Double(tip) ) / 100.0
 var total: Double = mealCost + tipCost
 
 print(total)
-
