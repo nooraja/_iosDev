@@ -17,7 +17,6 @@ while m <= n {
 }
 
 
-//###//
 var mealCost:Double = 3.5
 var tip:Int = 20;
 
@@ -25,3 +24,9 @@ var tipCost:Double = ( mealCost * Double(tip) ) / 100.0
 var total: Double = mealCost + tipCost
 
 print(total)
+
+
+let numberOfCandies = 4
+
+var wins = [Bool](repeatElement(false, count: numberOfCandies+1))
+
